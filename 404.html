@@ -16,109 +16,110 @@
     <link rel="stylesheet" href="css/style.css">
 
     <style>
-        .error-page {
-            min-height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 40px 20px;
-            text-align: center;
-            background:
-                radial-gradient(circle at 50% 40%, rgba(57,120,246,0.12), transparent 45%),
-                var(--light);
-        }
+    .error-page {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 40px 20px;
+        text-align: center;
+        background:
+            radial-gradient(circle at 50% 40%, rgba(57,120,246,0.16), transparent 45%),
+            #080d18;
+    }
 
-        .error-content {
-            max-width: 650px;
-        }
+    .error-content {
+        max-width: 650px;
+    }
 
-        .error-code {
-            font-family: var(--font-heading);
-            font-size: clamp(100px, 22vw, 190px);
-            font-weight: 700;
-            line-height: 1;
-            letter-spacing: -12px;
-            color: var(--dark);
-        }
+    .error-code {
+        font-family: var(--font-heading);
+        font-size: clamp(100px, 22vw, 190px);
+        font-weight: 700;
+        line-height: 1;
+        letter-spacing: -12px;
+        color: #f8fafc;
+    }
 
-        .error-code span {
-            color: var(--blue);
-        }
+    .error-code span {
+        color: var(--blue);
+    }
 
-        .error-label {
-            display: inline-block;
-            margin: 25px 0 15px;
-            padding: 8px 16px;
-            border: 1px solid rgba(57,120,246,0.25);
-            border-radius: 50px;
-            color: var(--blue);
-            font-size: 12px;
-            font-weight: 700;
-            letter-spacing: 2px;
-        }
+    .error-label {
+        display: inline-block;
+        margin: 25px 0 15px;
+        padding: 8px 16px;
+        border: 1px solid rgba(57,120,246,0.4);
+        border-radius: 50px;
+        color: #60a5fa;
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        background: rgba(57,120,246,0.08);
+    }
 
-        .error-content h1 {
-            font-family: var(--font-heading);
-            font-size: clamp(28px, 5vw, 42px);
-            color: var(--dark);
-            margin-bottom: 15px;
-        }
+    .error-content h1 {
+        font-family: var(--font-heading);
+        font-size: clamp(28px, 5vw, 42px);
+        color: #f8fafc;
+        margin-bottom: 15px;
+    }
 
-        .error-content p {
-            color: var(--muted);
-            font-size: 16px;
-            line-height: 1.8;
-            margin-bottom: 30px;
-        }
+    .error-content p {
+        color: #94a3b8;
+        font-size: 16px;
+        line-height: 1.8;
+        margin-bottom: 30px;
+    }
 
-        .error-actions {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 14px;
-        }
+    .error-actions {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 14px;
+    }
 
-        .error-button {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            padding: 14px 25px;
-            border-radius: 8px;
-            text-decoration: none;
-            font-weight: 600;
-            transition: 0.3s ease;
-        }
+    .error-button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 14px 25px;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: 600;
+        transition: 0.3s ease;
+    }
 
-        .error-button.primary {
-            background: var(--blue);
-            color: var(--white);
-        }
+    .error-button.primary {
+        background: var(--blue);
+        color: var(--white);
+    }
 
-        .error-button.primary:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 10px 25px rgba(57,120,246,0.25);
-        }
+    .error-button.primary:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 10px 25px rgba(57,120,246,0.3);
+    }
 
-        .error-button.secondary {
-            border: 1px solid #cbd5e1;
-            color: var(--dark);
-        }
+    .error-button.secondary {
+        border: 1px solid #334155;
+        color: #e2e8f0;
+    }
 
-        .error-button.secondary:hover {
-            border-color: var(--blue);
-            color: var(--blue);
-        }
+    .error-button.secondary:hover {
+        border-color: var(--blue);
+        color: #60a5fa;
+    }
 
-        .error-footer {
-            margin-top: 65px;
-            font-size: 13px;
-            color: var(--muted);
-        }
+    .error-footer {
+        margin-top: 65px;
+        font-size: 13px;
+        color: #64748b;
+    }
 
-        .error-footer span {
-            color: var(--blue);
-        }
-    </style>
+    .error-footer span {
+        color: #60a5fa;
+    }
+</style>
 </head>
 
 <body>
