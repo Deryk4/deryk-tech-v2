@@ -4,7 +4,7 @@
     --light: #f8fafc;
     --blue: #3978f6;
     --text: #0f172a;
-    --muted: #64748b;
+    --muted: #a1b1c7;
     --white: #ffffff;
     --font-main: 'DM Sans', sans-serif;
     --font-heading: 'Space Grotesk', sans-serif;
@@ -348,7 +348,7 @@ button {
 }
 
 .card-title {
-    color: #8190a7;
+    color: #b0bfd4;
     font-size: 10px;
     margin-left: 12px;
 }
@@ -360,7 +360,7 @@ button {
 .code-label {
     font-size: 10px;
     letter-spacing: 2px;
-    color: #7f91b1;
+    color: #b0bfd4;
 }
 
 .visual-content h2 {
@@ -391,7 +391,7 @@ button {
     display: flex;
     justify-content: space-between;
     margin-top: 55px;
-    color: #64748b;
+    color: #a1b1c7;
     font-size: 8px;
     letter-spacing: 1px;
 }
@@ -451,7 +451,7 @@ button {
     font-size: 10px;
     font-weight: 700;
     letter-spacing: 2px;
-    color: #64748b;
+    color: #a1b1c7;
 }
 
 .label-line {
@@ -1104,7 +1104,7 @@ button {
     right: 30px;
     font-size: 9px;
     letter-spacing: 2px;
-    color: #64748b;
+    color: #a1b1c7;
 }
 
 /* =========================
@@ -1361,7 +1361,7 @@ button {
 
 .footer-bottom p,
 .footer-bottom a {
-    color: #64748b;
+    color: #a1b1c7;
     font-size: 12px;
 }
 
