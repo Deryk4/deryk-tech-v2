@@ -4,7 +4,7 @@
     --light: #f8fafc;
     --blue: #2563eb;
     --text: #0f172a;
-    --muted: #a1b1c7;
+    --muted: #475569;
     --white: #ffffff;
     --font-main: 'DM Sans', sans-serif;
     --font-heading: 'Space Grotesk', sans-serif;
@@ -474,7 +474,7 @@ button {
 }
 
 .about-intro {
-    color: var(--muted);
+    color: #111827;
     font-size: 16px;
     line-height: 1.9;
     max-width: 430px;
@@ -506,7 +506,7 @@ button {
 
 .about-description p {
     font-size: 14px;
-    color: var(--muted);
+    color: black;
     line-height: 1.9;
     margin-bottom: 15px;
 }
@@ -535,11 +535,13 @@ button {
     font-family: var(--font-heading);
     font-size: 15px;
     margin-bottom: 7px;
+    color: var(--blue);
+    
 }
 
 .value-item p {
     font-size: 12px;
-    color: var(--muted);
+    color: wheat;
 }
 
 /* =========================
@@ -1430,8 +1432,8 @@ main {
 
 .about {
     background:
-        linear-gradient(rgba(248, 250, 252, 0.75),
-                        rgba(248, 250, 252, 0.75)),
+        linear-gradient(rgba(248, 250, 252, 0.25),
+                        rgba(248, 250, 252, 0.10)),
         url("../assets/images/about.webp") center/cover no-repeat;
 }
 /* SERVICES BACKGROUND */
