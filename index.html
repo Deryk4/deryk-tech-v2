@@ -37,10 +37,24 @@
 <script type="application/ld+json">
 {
     "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "Deryk.Tech",
-    "url": "https://deryk4.github.io/deryk-tech-v2/",
-    "description": "Digital products, innovative software and smart web solutions by Deryk.Tech."
+    "@graph": [
+        {
+            "@type": "WebSite",
+            "@id": "https://deryk4.github.io/deryk-tech-v2/#website",
+            "name": "Deryk.Tech",
+            "url": "https://deryk4.github.io/deryk-tech-v2/",
+            "description": "Digital products, innovative software and smart web solutions by Deryk.Tech.",
+            "publisher": {
+                "@id": "https://deryk4.github.io/deryk-tech-v2/#person"
+            }
+        },
+        {
+            "@type": "Person",
+            "@id": "https://deryk4.github.io/deryk-tech-v2/#person",
+            "name": "Derick W. Omuheba",
+            "url": "https://deryk4.github.io/deryk-tech-v2/"
+        }
+    ]
 }
 </script>
 </head>
