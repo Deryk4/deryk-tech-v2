@@ -1432,7 +1432,7 @@ main {
     background:
         linear-gradient(rgba(248, 250, 252, 0.75),
                         rgba(248, 250, 252, 0.75)),
-        url("../assets/images/about.png") center/cover no-repeat;
+        url("../assets/images/about.webp") center/cover no-repeat;
 }
 /* SERVICES BACKGROUND */
 
@@ -1442,7 +1442,7 @@ main {
             rgba(248, 250, 252, 0.94),
             rgba(248, 250, 252, 0.94)
         ),
-        url("../assets/images/section.png");
+        url("../assets/images/services.webp");
 
     background-size: cover;
     background-position: center;
